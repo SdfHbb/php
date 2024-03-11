@@ -1,0 +1,8 @@
+B#Berlin
+HH#Hansestadt Hamburg
+HRO#Hansestadt Rostock
+HWI#Hansestadt Wismar
+MD#Magdeburg
+MZ#Mainz
+M#Muenchen
+S#Stuttgart

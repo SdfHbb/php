@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>Aufgabe 4</title>
+    <link rel="stylesheet" href="../../../resources\views\style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box top"></div>
+      <div class="box content">
+        <h3>Aufgabe 4</h3>
+        <div class="admonition notice">
+          <p class="left">
+            Erstellen Sie ein einfaches User-Login-Formular (als HTML-Datei) mit
+            Passworteingabe für mehrere User. Dazu werden Username und Passwort
+            in der PHP-Datei in einem assoziativen Array gespeichert:
+          </p>
+
+          <ul>
+            <li>Index: Username /</li>
+            <li>Wert: Passwort.</li>
+          </ul>
+          <p class="left">
+            Bei erfolgreichem Login werden die User begrüßt, und es werden 2
+            Verweise zu anderen Seiten angezeigt; im Fehlerfalle ist eine
+            entsprechende Meldung auszugeben und ein Zurück-Verweis zurück auf
+            die Loginseite.
+            </p>
+          </p>
+        </div>
+        <form action="4member.php" method="post">
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="password" name="pw" placeholder="Passwort" required />
+          <!-- 
+          <input type="text" name="name" placeholder="Name" required value="ali"/>
+          <input type="password" name="pw" placeholder="Passwort" required value="passwort"/> -->
+          <button>senden</button>
+        </form>
+      </div>
+      <div class="box bottom"></div>
+    </div>
+  </body>
+</html>

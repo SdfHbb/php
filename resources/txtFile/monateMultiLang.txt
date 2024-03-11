@@ -1,0 +1,12 @@
+Januar;January;一月
+Februar;February;二月
+März;March;三月
+April;April;四月
+Mai;May;五月
+Juni;June;六月
+Juli;July;七月
+August;August;八月
+September;September;九月
+Oktober;October;十月
+November;November;十一月
+Dezember;December;十二月

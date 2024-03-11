@@ -1,0 +1,276 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.container {
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .box {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .top {
+    /* height: 45px; */
+  }
+
+  .content {
+    padding: 20px;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    flex: 1;
+  }
+
+  .bottom {
+    /* background-color: red; */
+    /* height: 45px; */
+  }
+}
+input,
+textarea {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.content h3 {
+  text-align: center;
+  white-space: nowrap;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4caf50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+button:hover,
+button:active,
+button:focus {
+  background: hsl(123, 41%, 45%);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+textarea {
+  width: 100%;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  text-align: left;
+  align-content: normal;
+}
+
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked),
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked) {
+}
+
+p.left,
+ul,
+ol {
+  text-align: left;
+  align-items: left;
+}
+
+table {
+  width: 100%;
+  word-wrap: break-word;
+  table-layout: fixed;
+  border-spacing: 0;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+thead {
+  visibility: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+th {
+  background: #215a8e;
+  color: #fff;
+}
+
+td:nth-child(1) {
+  background: #215a8e;
+  color: #fff;
+  border-radius: 1em 1em 0 0;
+}
+
+th,
+td {
+  padding: 1em;
+}
+
+tr,
+td {
+  display: block;
+}
+
+td {
+  position: relative;
+}
+
+td::before {
+  content: attr(data-label);
+  position: absolute;
+  left: 0;
+  padding-left: 1em;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+tr {
+  margin-bottom: 1.5em;
+  border: 1px solid #f2f2f2;
+  border-radius: 1em;
+  text-align: right;
+}
+
+tr:last-of-type {
+  margin-bottom: 0;
+}
+
+td:nth-child(n + 2):nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+@media only screen and (min-width: 768px) {
+  table {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #f2f2f2;
+  }
+
+  thead {
+    visibility: visible;
+    position: relative;
+  }
+
+  th {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 0.9em;
+  }
+
+  tr {
+    display: table-row;
+    border: none;
+    border-radius: 0;
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  td {
+    display: table-cell;
+  }
+
+  td::before {
+    content: none;
+  }
+
+  td:nth-child(1) {
+    background: transparent;
+    color: #444;
+    border-radius: 0;
+  }
+
+  td:nth-child(n + 2):nth-child(odd) {
+    background-color: transparent;
+  }
+  tr:hover {
+    background-color: #21598e36;
+  }
+}
+
+/*  */
+
+/* Admonition */
+.admonition {
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 300;
+  padding: 0.5rem;
+  border-width: 1px 1px 1px 6px;
+  border-style: solid;
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 0.1), 0 1px 5px -1px rgb(0 0 0 / 0.1);
+  margin-bottom: 15px;
+}
+
+/* Admonition colors */
+
+.admonition.notice {
+  border-color: rgb(59 130 246 / 0.1);
+  border-left-color: #3b82f6;
+  background-color: #dbeafe;
+  color: rgb(30 58 138);
+}
+
+.admonition.info {
+  border-color: rgb(16 185 129 / 0.1);
+  border-left-color: #10b981;
+  background-color: #d1fae5;
+  color: rgb(20 83 45);
+}
+
+.admonition.warn {
+  text-align: left;
+  border-color: rgb(254 218 0 / 0.1);
+  border-left-color: #feda00;
+  background-color: #fff5b7;
+  color: rgb(99 75 8);
+}
+
+.admonition.danger {
+  border-color: rgb(254 218 0 / 0.1);
+  border-left-color: #ef4444;
+  background-color: #fcdada;
+  color: rgb(127 29 29);
+}
+
+img.small {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 2px;
+}
+
+/* img {
+  box-shadow: 10px 10px 20px gray;
+  margin: 50px;
+} */

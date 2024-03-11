@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <style type="text/css">
+      * {
+        font-family: arial, univers, helvetica, sans-serif;
+        font-size: 1.1em;
+        margin: 30px;
+      }
+      form {
+        width: 500px;
+      }
+      form.f1 {
+        background-color: blue;
+      }
+
+      form.f2 {
+        background-color: yellow;
+      }
+
+      input.select {
+        font-size: 1.5em;
+        width: 400px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="1.php" method="post" class="f1">
+      <input
+        type="text"
+        name="sel"
+        class="select"
+        value="SELECT * FROM kunden;"
+        autocomplete="off"
+      /><br />
+      <input type="submit" value="Datenbank abfragen" />
+    </form>
+
+    <hr style="margin: 20px" />
+
+    <form action="2.php" method="post" class="f2">
+      <input
+        type="text"
+        name="sel"
+        class="select"
+        placeholder="Artikelname?"
+        autocomplete="off"
+      /><br />
+      <input type="submit" value="Artikel suchen" />
+    </form>
+
+    <hr style="margin: 20px" />
+
+    <form action="3.php" method="post" class="f1">
+      <input
+        type="text"
+        name="sel"
+        class="select"
+        placeholder="Kunde?"
+        autocomplete="off"
+      /><br />
+      <input type="submit" value="Kunden suchen" />
+    </form>
+  </body>
+</html>

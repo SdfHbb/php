@@ -1,0 +1,11 @@
+1;Alfreds Futterkiste;Maria Anders;Vertriebsmitarbeiterin;Obere Str. 57;12209;Berlin;Deutschland;030-0074321;Alfreds@fiktiv.net
+6;Blauer See Delikatessen;Hanna Moos;Vertriebsmitarbeiterin;Forsterstr. 57;68306;Mannheim;Deutschland;0621-08460;Blauer@fiktiv.net
+17;Drachenblut Delikatessen;Sven Ottlieb;Einkaufsleitung;Walserweg 21;52066;Aachen;Deutschland;0241-039123;Drachenblut@fiktiv.net
+25;Frankenversand;Peter Franken;Marketingmanager;Berliner Platz 43;80805;München;Deutschland;089-0877310;Frankenversand@fiktiv
+39;Königlich Essen;Philip Cramer;Vertriebsassistent;Maubelstr. 90;14776;Brandenburg;Deutschland;0555-09876;Königlich@fiktiv.net
+44;Lehmanns Marktstand;Renate Messner;Vertriebsmitarbeiterin;Magazinweg 7;60528;Frankfurt a.M. ;Deutschland;069-0245984;Lehmanns@fiktiv.net
+52;Morgenstern Gesundkost;Alexander Feuer;Marketingassistent;Heerstr. 22;04179;Leipzig;Deutschland;0342-023176;Morgenstern@fiktiv.net
+56;Ottilies Käseladen;Henriette Pfalzheim;Inhaberin;Mehrheimerstr. 369;50739;Köln;Deutschland;0221-0644327;Ottilies@fiktiv.net
+63;QUICK-Stop;Horst Kloss;Buchhalter;Taucherstraße 10;01307;Cunewalde;Deutschland;0372-035188;QUICK-Stop@fiktiv
+79;Toms Spezialitäten;Karin Josephs;Marketingmanager;Luisenstr. 48;44087;Münster;Deutschland;0251-031259;Toms@fiktiv.net
+86;Die Wandernde Kuh;Rita Müller;Vertriebsmitarbeiterin;Adenauerallee 900;70563;Stuttgart;Deutschland;0711-020361;Die@fiktiv.net
